@@ -1,14 +1,14 @@
 # Flutter Testing 
 
-Proyek ini adalah demonstrasi dan praktik langsung dari materi **Flutter Testing** untuk Kelas XII RPL. [cite_start]Proyek ini mencakup implementasi dari tiga jenis pengujian utama di Flutter: Unit Test, Widget Test, dan Integration Test[cite: 3].
+Proyek ini adalah demonstrasi dan praktik langsung dari materi **Flutter Testing** untuk Kelas XII RPL. Proyek ini mencakup implementasi dari tiga jenis pengujian utama di Flutter: Unit Test, Widget Test, dan Integration Test.
 
 ## Tiga Jenis Pengujian
 
-1.  **Unit Test**: Menguji logika atau unit kode terkecil secara terisolasi. [cite_start]Dalam proyek ini, Unit Test digunakan untuk memverifikasi fungsi validasi email[cite: 12].
+1.  **Unit Test**: Menguji logika atau unit kode terkecil secara terisolasi.Dalam proyek ini, Unit Test digunakan untuk memverifikasi fungsi validasi email.
 
-2.  **Widget Test**: Menguji satu widget secara terisolasi untuk memastikan perilakunya benar. [cite_start]Di sini, Widget Test digunakan untuk memastikan elemen-elemen dari formulir login (seperti *username field*, *password field*, dan tombol Login) muncul dengan benar di layar[cite: 13].
+2.  **Widget Test**: Menguji satu widget secara terisolasi untuk memastikan perilakunya benar. Di sini, Widget Test digunakan untuk memastikan elemen-elemen dari formulir login (seperti *username field*, *password field*, dan tombol Login) muncul dengan benar di layar.
 
-3.  [cite_start]**Integration Test**: Menguji keseluruhan alur aplikasi seperti yang akan dilakukan oleh pengguna sungguhan[cite: 14]. Proyek ini menggunakan Integration Test untuk mensimulasikan alur login dari awal hingga berhasil masuk ke halaman `Dashboard`.
+3. **Integration Test**: Menguji keseluruhan alur aplikasi seperti yang akan dilakukan oleh pengguna sungguhan. Proyek ini menggunakan Integration Test untuk mensimulasikan alur login dari awal hingga berhasil masuk ke halaman `Dashboard`.
 
 ## Struktur Proyek
 
@@ -47,11 +47,6 @@ Proyek ini mengikuti struktur pengujian Flutter yang direkomendasikan:
 
 ## Screenshot Hasil Pengujian
 
-Anda dapat menambahkan tangkapan layar (screenshot) dari hasil pengujian yang berhasil di sini. Ini menunjukkan bahwa semua pengujian (Unit, Widget, dan Integration) telah lolos.
-
 ![Screenshot Hasil Pengujian Unit Test](assets/unit_test_result.png)
 ![Screenshot Hasil Pengujian Widget Test](assets/widget_test_result.png)
 ![Screenshot Hasil Pengujian Integration Test](assets/integration_test_result.png)
-
----
-**Catatan**: Jangan lupa untuk mengganti `[URL_REPOSITORI_ANDA]` dan menambahkan screenshot hasil pengujian Anda ke folder `assets` atau mengunggahnya langsung di deskripsi README.md Anda.
